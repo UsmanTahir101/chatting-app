@@ -1,0 +1,6 @@
+framework module Pods_ScoketChatApplication {
+  umbrella header "Pods-ScoketChatApplication-umbrella.h"
+
+  export *
+  module * { export * }
+}

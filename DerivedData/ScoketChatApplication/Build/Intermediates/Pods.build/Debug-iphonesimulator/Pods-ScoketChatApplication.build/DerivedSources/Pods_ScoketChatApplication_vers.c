@@ -1,0 +1,1 @@
+ const unsigned char Pods_ScoketChatApplicationVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:Pods_ScoketChatApplication  PROJECT:Pods-1" "\n"; const double Pods_ScoketChatApplicationVersionNumber __attribute__ ((used)) = (double)1.;

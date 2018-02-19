@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		844E71B6A25A9628B54FECAC /* Pods_ScoketChatApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9E43DEC7F789365183FA15 /* Pods_ScoketChatApplication.framework */; };
+		B50C35F81CF0A45600B0D828 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B50C35F71CF0A45600B0D828 /* main.m */; };
+		B50C35FB1CF0A45600B0D828 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B50C35FA1CF0A45600B0D828 /* AppDelegate.m */; };
+		B50C36011CF0A45600B0D828 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50C35FF1CF0A45600B0D828 /* Main.storyboard */; };
+		B50C36031CF0A45600B0D828 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50C36021CF0A45600B0D828 /* Assets.xcassets */; };
+		B50C36061CF0A45600B0D828 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50C36041CF0A45600B0D828 /* LaunchScreen.storyboard */; };
+		B50C36121CF0E09600B0D828 /* JSQMessageControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B50C360F1CF0E09600B0D828 /* JSQMessageControllerTest.m */; };
+		B50C36131CF0E09600B0D828 /* DataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B50C36111CF0E09600B0D828 /* DataClass.m */; };
+		B50C36181CF0E79700B0D828 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B50C36171CF0E79700B0D828 /* AsyncSocket.m */; };
+		B5E0E0981CF175AA000926E0 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E0E0971CF175AA000926E0 /* DBManager.m */; };
+		B5E0E09C1CF1766E000926E0 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E0E09B1CF1766E000926E0 /* libsqlite3.tbd */; };
+		B5E0E09F1CF176F8000926E0 /* FriendsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E0E09E1CF176F8000926E0 /* FriendsTableViewController.m */; };
+		B5E0E0A11CF1847A000926E0 /* Clients in Resources */ = {isa = PBXBuildFile; fileRef = B5E0E0A01CF183CC000926E0 /* Clients */; };
+		B5E0E0A91CF1DE30000926E0 /* SocketClientVc.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E0E0A81CF1DE30000926E0 /* SocketClientVc.m */; };
+		B5E150B71CF237B000EE9128 /* dataSharingClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E150B61CF237B000EE9128 /* dataSharingClass.m */; };
+		B5E352931D111FA20096E8ED /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = B5E352911D111FA20096E8ED /* 1.png */; };
+		B5E3529A1D112A520096E8ED /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = B5E352991D112A520096E8ED /* 2.png */; };
+		B5E79D9C1D1521900061E354 /* recentChatVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E79D9B1D1521900061E354 /* recentChatVC.m */; };
+		B5E89DF81CF4AA0D00DD32F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E89DF71CF4AA0D00DD32F1 /* ViewController.m */; };
+		B5E89DFC1CF4AC0F00DD32F1 /* VerifyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E89DFB1CF4AC0F00DD32F1 /* VerifyVC.m */; };
+		B5F337181D1AC29400295CED /* AddGroupTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F337151D1AC29400295CED /* AddGroupTableViewController.m */; };
+		B5F337191D1AC29400295CED /* CreateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F337171D1AC29400295CED /* CreateViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E7006D43D47EC7DEE98634F /* Pods-ScoketChatApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScoketChatApplication.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScoketChatApplication/Pods-ScoketChatApplication.release.xcconfig"; sourceTree = "<group>"; };
+		2D9E43DEC7F789365183FA15 /* Pods_ScoketChatApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScoketChatApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50C35F31CF0A45600B0D828 /* ScoketChatApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoketChatApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50C35F71CF0A45600B0D828 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B50C35F91CF0A45600B0D828 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B50C35FA1CF0A45600B0D828 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B50C36001CF0A45600B0D828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B50C36021CF0A45600B0D828 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B50C36051CF0A45600B0D828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B50C36071CF0A45600B0D828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B50C360E1CF0E09600B0D828 /* JSQMessageControllerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSQMessageControllerTest.h; sourceTree = "<group>"; };
+		B50C360F1CF0E09600B0D828 /* JSQMessageControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSQMessageControllerTest.m; sourceTree = "<group>"; };
+		B50C36101CF0E09600B0D828 /* DataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataClass.h; sourceTree = "<group>"; };
+		B50C36111CF0E09600B0D828 /* DataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataClass.m; sourceTree = "<group>"; };
+		B50C36161CF0E79700B0D828 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		B50C36171CF0E79700B0D828 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		B5C0B0D671582E600D0C6A17 /* Pods-ScoketChatApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScoketChatApplication.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScoketChatApplication/Pods-ScoketChatApplication.debug.xcconfig"; sourceTree = "<group>"; };
+		B5E0E0961CF175A9000926E0 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		B5E0E0971CF175AA000926E0 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		B5E0E09B1CF1766E000926E0 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		B5E0E09D1CF176F8000926E0 /* FriendsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsTableViewController.h; sourceTree = "<group>"; };
+		B5E0E09E1CF176F8000926E0 /* FriendsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsTableViewController.m; sourceTree = "<group>"; };
+		B5E0E0A01CF183CC000926E0 /* Clients */ = {isa = PBXFileReference; lastKnownFileType = file; path = Clients; sourceTree = "<group>"; };
+		B5E0E0A71CF1DE30000926E0 /* SocketClientVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketClientVc.h; sourceTree = "<group>"; };
+		B5E0E0A81CF1DE30000926E0 /* SocketClientVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketClientVc.m; sourceTree = "<group>"; };
+		B5E150B51CF237B000EE9128 /* dataSharingClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dataSharingClass.h; sourceTree = "<group>"; };
+		B5E150B61CF237B000EE9128 /* dataSharingClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dataSharingClass.m; sourceTree = "<group>"; };
+		B5E352911D111FA20096E8ED /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		B5E352991D112A520096E8ED /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		B5E79D9A1D1521900061E354 /* recentChatVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recentChatVC.h; sourceTree = "<group>"; };
+		B5E79D9B1D1521900061E354 /* recentChatVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = recentChatVC.m; sourceTree = "<group>"; };
+		B5E89DF61CF4AA0D00DD32F1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B5E89DF71CF4AA0D00DD32F1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B5E89DFA1CF4AC0F00DD32F1 /* VerifyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerifyVC.h; sourceTree = "<group>"; };
+		B5E89DFB1CF4AC0F00DD32F1 /* VerifyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerifyVC.m; sourceTree = "<group>"; };
+		B5F337141D1AC29400295CED /* AddGroupTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddGroupTableViewController.h; sourceTree = "<group>"; };
+		B5F337151D1AC29400295CED /* AddGroupTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddGroupTableViewController.m; sourceTree = "<group>"; };
+		B5F337161D1AC29400295CED /* CreateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateViewController.h; sourceTree = "<group>"; };
+		B5F337171D1AC29400295CED /* CreateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B50C35F01CF0A45600B0D828 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E0E09C1CF1766E000926E0 /* libsqlite3.tbd in Frameworks */,
+				844E71B6A25A9628B54FECAC /* Pods_ScoketChatApplication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E7384CBD0C4AF7C24AF88B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5C0B0D671582E600D0C6A17 /* Pods-ScoketChatApplication.debug.xcconfig */,
+				1E7006D43D47EC7DEE98634F /* Pods-ScoketChatApplication.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5FD0821410BEFDA413546D5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5E0E09B1CF1766E000926E0 /* libsqlite3.tbd */,
+				2D9E43DEC7F789365183FA15 /* Pods_ScoketChatApplication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B50C35EA1CF0A45600B0D828 = {
+			isa = PBXGroup;
+			children = (
+				B50C35F51CF0A45600B0D828 /* ScoketChatApplication */,
+				B50C35F41CF0A45600B0D828 /* Products */,
+				4E7384CBD0C4AF7C24AF88B0 /* Pods */,
+				5FD0821410BEFDA413546D5D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B50C35F41CF0A45600B0D828 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B50C35F31CF0A45600B0D828 /* ScoketChatApplication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B50C35F51CF0A45600B0D828 /* ScoketChatApplication */ = {
+			isa = PBXGroup;
+			children = (
+				B5F337131D1AC28300295CED /* AddGroup */,
+				B5E89DF91CF4AA1700DD32F1 /* Start ViewController */,
+				B5E150B41CF2378300EE9128 /* DataSharing */,
+				B5E0E0A21CF1C921000926E0 /* SocketMsgSendingReceiving */,
+				B5E0E0991CF175B5000926E0 /* DB */,
+				B50C36151CF0E78200B0D828 /* Socket */,
+				B50C360D1CF0E06600B0D828 /* JSQMessageViewController */,
+				B5E79D9D1D1522240061E354 /* Recent */,
+				B5E0E0A61CF1C9C3000926E0 /* FriendsTableView */,
+				B50C35F91CF0A45600B0D828 /* AppDelegate.h */,
+				B50C35FA1CF0A45600B0D828 /* AppDelegate.m */,
+				B50C35FF1CF0A45600B0D828 /* Main.storyboard */,
+				B50C36021CF0A45600B0D828 /* Assets.xcassets */,
+				B5E352991D112A520096E8ED /* 2.png */,
+				B5E352911D111FA20096E8ED /* 1.png */,
+				B50C36041CF0A45600B0D828 /* LaunchScreen.storyboard */,
+				B50C36071CF0A45600B0D828 /* Info.plist */,
+				B50C35F61CF0A45600B0D828 /* Supporting Files */,
+			);
+			path = ScoketChatApplication;
+			sourceTree = "<group>";
+		};
+		B50C35F61CF0A45600B0D828 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B50C35F71CF0A45600B0D828 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B50C360D1CF0E06600B0D828 /* JSQMessageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B50C360E1CF0E09600B0D828 /* JSQMessageControllerTest.h */,
+				B50C360F1CF0E09600B0D828 /* JSQMessageControllerTest.m */,
+				B50C36101CF0E09600B0D828 /* DataClass.h */,
+				B50C36111CF0E09600B0D828 /* DataClass.m */,
+			);
+			name = JSQMessageViewController;
+			sourceTree = "<group>";
+		};
+		B50C36151CF0E78200B0D828 /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				B50C36161CF0E79700B0D828 /* AsyncSocket.h */,
+				B50C36171CF0E79700B0D828 /* AsyncSocket.m */,
+			);
+			name = Socket;
+			sourceTree = "<group>";
+		};
+		B5E0E0991CF175B5000926E0 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				B5E0E0A01CF183CC000926E0 /* Clients */,
+				B5E0E0961CF175A9000926E0 /* DBManager.h */,
+				B5E0E0971CF175AA000926E0 /* DBManager.m */,
+			);
+			name = DB;
+			sourceTree = "<group>";
+		};
+		B5E0E0A21CF1C921000926E0 /* SocketMsgSendingReceiving */ = {
+			isa = PBXGroup;
+			children = (
+				B5E0E0A71CF1DE30000926E0 /* SocketClientVc.h */,
+				B5E0E0A81CF1DE30000926E0 /* SocketClientVc.m */,
+			);
+			name = SocketMsgSendingReceiving;
+			sourceTree = "<group>";
+		};
+		B5E0E0A61CF1C9C3000926E0 /* FriendsTableView */ = {
+			isa = PBXGroup;
+			children = (
+				B5E0E09D1CF176F8000926E0 /* FriendsTableViewController.h */,
+				B5E0E09E1CF176F8000926E0 /* FriendsTableViewController.m */,
+			);
+			name = FriendsTableView;
+			sourceTree = "<group>";
+		};
+		B5E150B41CF2378300EE9128 /* DataSharing */ = {
+			isa = PBXGroup;
+			children = (
+				B5E150B51CF237B000EE9128 /* dataSharingClass.h */,
+				B5E150B61CF237B000EE9128 /* dataSharingClass.m */,
+			);
+			name = DataSharing;
+			sourceTree = "<group>";
+		};
+		B5E79D9D1D1522240061E354 /* Recent */ = {
+			isa = PBXGroup;
+			children = (
+				B5E79D9A1D1521900061E354 /* recentChatVC.h */,
+				B5E79D9B1D1521900061E354 /* recentChatVC.m */,
+			);
+			name = Recent;
+			sourceTree = "<group>";
+		};
+		B5E89DF91CF4AA1700DD32F1 /* Start ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B5E89DF61CF4AA0D00DD32F1 /* ViewController.h */,
+				B5E89DF71CF4AA0D00DD32F1 /* ViewController.m */,
+				B5E89DFA1CF4AC0F00DD32F1 /* VerifyVC.h */,
+				B5E89DFB1CF4AC0F00DD32F1 /* VerifyVC.m */,
+			);
+			name = "Start ViewController";
+			sourceTree = "<group>";
+		};
+		B5F337131D1AC28300295CED /* AddGroup */ = {
+			isa = PBXGroup;
+			children = (
+				B5F337141D1AC29400295CED /* AddGroupTableViewController.h */,
+				B5F337151D1AC29400295CED /* AddGroupTableViewController.m */,
+				B5F337161D1AC29400295CED /* CreateViewController.h */,
+				B5F337171D1AC29400295CED /* CreateViewController.m */,
+			);
+			name = AddGroup;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B50C35F21CF0A45600B0D828 /* ScoketChatApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B50C360A1CF0A45600B0D828 /* Build configuration list for PBXNativeTarget "ScoketChatApplication" */;
+			buildPhases = (
+				245DC1F4EBF26B0DE00D72D8 /* 📦 Check Pods Manifest.lock */,
+				B50C35EF1CF0A45600B0D828 /* Sources */,
+				B50C35F01CF0A45600B0D828 /* Frameworks */,
+				B50C35F11CF0A45600B0D828 /* Resources */,
+				7B677FDB39D8170FB8D5787E /* 📦 Embed Pods Frameworks */,
+				0301C1E8B25466BF70FF744A /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScoketChatApplication;
+			productName = ScoketChatApplication;
+			productReference = B50C35F31CF0A45600B0D828 /* ScoketChatApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B50C35EB1CF0A45600B0D828 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Abdul Rehman";
+				TargetAttributes = {
+					B50C35F21CF0A45600B0D828 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = B50C35EE1CF0A45600B0D828 /* Build configuration list for PBXProject "ScoketChatApplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B50C35EA1CF0A45600B0D828;
+			productRefGroup = B50C35F41CF0A45600B0D828 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B50C35F21CF0A45600B0D828 /* ScoketChatApplication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B50C35F11CF0A45600B0D828 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E3529A1D112A520096E8ED /* 2.png in Resources */,
+				B5E0E0A11CF1847A000926E0 /* Clients in Resources */,
+				B5E352931D111FA20096E8ED /* 1.png in Resources */,
+				B50C36061CF0A45600B0D828 /* LaunchScreen.storyboard in Resources */,
+				B50C36031CF0A45600B0D828 /* Assets.xcassets in Resources */,
+				B50C36011CF0A45600B0D828 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0301C1E8B25466BF70FF744A /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScoketChatApplication/Pods-ScoketChatApplication-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		245DC1F4EBF26B0DE00D72D8 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7B677FDB39D8170FB8D5787E /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScoketChatApplication/Pods-ScoketChatApplication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B50C35EF1CF0A45600B0D828 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E0E0A91CF1DE30000926E0 /* SocketClientVc.m in Sources */,
+				B50C35FB1CF0A45600B0D828 /* AppDelegate.m in Sources */,
+				B50C36181CF0E79700B0D828 /* AsyncSocket.m in Sources */,
+				B50C36121CF0E09600B0D828 /* JSQMessageControllerTest.m in Sources */,
+				B5E89DF81CF4AA0D00DD32F1 /* ViewController.m in Sources */,
+				B5E89DFC1CF4AC0F00DD32F1 /* VerifyVC.m in Sources */,
+				B5E0E0981CF175AA000926E0 /* DBManager.m in Sources */,
+				B5F337181D1AC29400295CED /* AddGroupTableViewController.m in Sources */,
+				B50C36131CF0E09600B0D828 /* DataClass.m in Sources */,
+				B5E0E09F1CF176F8000926E0 /* FriendsTableViewController.m in Sources */,
+				B5F337191D1AC29400295CED /* CreateViewController.m in Sources */,
+				B50C35F81CF0A45600B0D828 /* main.m in Sources */,
+				B5E150B71CF237B000EE9128 /* dataSharingClass.m in Sources */,
+				B5E79D9C1D1521900061E354 /* recentChatVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B50C35FF1CF0A45600B0D828 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B50C36001CF0A45600B0D828 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B50C36041CF0A45600B0D828 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B50C36051CF0A45600B0D828 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B50C36081CF0A45600B0D828 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B50C36091CF0A45600B0D828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B50C360B1CF0A45600B0D828 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5C0B0D671582E600D0C6A17 /* Pods-ScoketChatApplication.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScoketChatApplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ab.ScoketChatApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B50C360C1CF0A45600B0D828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E7006D43D47EC7DEE98634F /* Pods-ScoketChatApplication.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScoketChatApplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ab.ScoketChatApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B50C35EE1CF0A45600B0D828 /* Build configuration list for PBXProject "ScoketChatApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50C36081CF0A45600B0D828 /* Debug */,
+				B50C36091CF0A45600B0D828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B50C360A1CF0A45600B0D828 /* Build configuration list for PBXNativeTarget "ScoketChatApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50C360B1CF0A45600B0D828 /* Debug */,
+				B50C360C1CF0A45600B0D828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B50C35EB1CF0A45600B0D828 /* Project object */;
+}
